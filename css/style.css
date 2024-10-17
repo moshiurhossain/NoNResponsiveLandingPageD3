@@ -1,0 +1,589 @@
+/* All common css start */
+*{
+ margin: 0;
+ padding: 0;
+ outline: 0;
+ box-sizing: border-box;
+}
+a{
+    text-decoration: none !important;
+    display: inline-block;
+}
+ul,ol{
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    line-height: 0.8px;
+    margin: 0;
+    padding: 0;
+}
+/* All common css end */
+/* navbar start */
+.navbar{
+    padding: 30px 0;
+}
+.nav-link{
+    color: #1C1E53;
+font-size: 21.33px;
+font-family: Roboto;
+font-weight: 400;
+line-height: 32px;
+}
+.navbar-nav{
+    column-gap: 43px;
+}
+.logo{
+    width: 150px;
+}
+.navButton{
+    color: #5E3BEE;
+font-size: 21.33px;
+font-family: Roboto;
+font-weight: 400;
+line-height: 32px;
+border: 1px solid #5E3BEE;
+width: 160px;
+height: 60px;
+border-radius: 5px;
+background-color: #FFF;
+}
+.currentpage{
+    color: #5E3BEE ;
+font-size: 21.33px;
+font-family: Roboto;
+font-weight: 400;
+line-height: 32px;
+}
+/* navbar start */
+/* banner start */
+#banner_part{
+    padding: 133px 0;
+    background-color: #F5FCFF;
+}
+.bannerimg{
+    width: 575px;
+}
+.bannerText{
+    width: 790px;
+}
+.bannerText p{
+    padding-top: 10px;
+    color: #282938;
+font-size: 21.33px;
+font-family: Roboto;
+font-weight: 600;
+line-height: 32px;
+    padding-bottom: 18px;
+}
+.bannerText h1{
+padding-bottom: 20px;
+        color: #282938;
+        font-size: 47.67px;
+        font-family: Roboto;
+        font-weight: 700;
+        line-height: 66.6px;
+        width: 500px;
+}
+.bannerText span{
+    color: #5E3BEE;
+}
+.bannerText h3{
+    color: #1C1E53;
+font-size: 20px;
+font-family: Roboto;
+font-weight: 400;
+line-height: 32px;
+width: 450px;
+padding-bottom: 35px;
+}
+.bannerbutton{
+    background: #5E3BEE;
+    width: 150px;
+    height: 65px;
+    color: white;
+font-size: 16px;
+font-family: Roboto;
+font-weight: 400;
+line-height: 24px;
+border: none;
+border-radius: 5px;
+}
+/* banner end */
+/* expertise start */
+#expertise_part{
+padding-top: 60px;
+padding-bottom: 65px;
+}
+.expertheadtext p{
+    color: #282938;
+    font-size: 20.33px;
+    font-family: Roboto;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+.expertheadtext h3{
+    color: #282938;
+font-size: 45px;
+font-family: Roboto;
+font-weight: 700;
+line-height: 76.80px;
+}
+.expertheadtext {
+    padding-bottom: 105px;
+}
+.expertcart{
+    display: flex;
+    justify-content: space-between;
+}
+.expertbox{
+        background-color: #F5FCFF;
+        height: 352px;
+        width: 285px;
+        padding: 13px;
+    
+}
+.expertimg{
+    margin-top: 14px;
+margin-bottom: 32px;
+width: 68px;
+background-color: #FFF;
+}
+.expertimg img{
+width: 60px;
+}
+.expertbox h3{
+    color: #282938;
+    font-size: 25px;
+    font-family: Roboto;
+    font-weight: 700;
+    line-height: 44.80px;
+    padding-bottom: 15px;
+}
+.expertbox p{
+    color: #1C1E53;
+font-size: 18.33px;
+font-family: Roboto;
+font-weight: 400;
+line-height: 32px;
+width: 265px;
+}
+/* expertise end */
+/* aboutpart start */
+#about_part{
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+.aboutText{
+    margin-left: 95px;
+    padding-top: 100px;
+}
+.aboutText h3{
+    color: #282938;
+    font-size: 18.33px;
+    font-family: Roboto;
+    font-weight: 600;
+    line-height: 32px;
+}
+.aboutText h2{
+    color: #282938;
+font-size: 40px;
+font-family: Roboto;
+font-weight: 700;
+line-height: 76.80px;
+}
+.aboutText p{
+    color: #1C1E53;
+font-size: 19px;
+font-family: Roboto;
+font-weight: 400;
+line-height: 36px;
+}
+.aboutimgbox img{
+    width: 500px;
+}
+.abttxtmargin{
+    color: #1C1E53;
+    font-size: 19px;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 36px;
+    padding-top: 20px;
+}
+/* portfolio part start */
+#portfolio_part{
+    padding-top: 112px;
+    padding-bottom: 100px;
+}
+.aboutmeheading{
+    width: inherit;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 80px;
+}
+.aboutheadingTxt p{
+    color: #282938;
+    font-size: 18.33px;
+    font-family: Roboto;
+    font-weight: 600;
+    line-height: 32px;
+    padding-bottom: 15px;
+}
+.aboutheadingTxt h3{
+    color: #282938;
+    font-size: 45px;
+    font-family: Roboto;
+    font-weight: 700;
+    line-height: 76.80px;
+}
+.portfolioButton{
+    color: white;
+font-size: 21.33px;
+font-family: Roboto;
+font-weight: 400;
+line-height: 32px;
+background-color: #E62872;
+border: none;
+width: 252px;
+height: 75px;
+border-radius: 8px;
+margin-top: 15px;
+}
+.fa-dribbble{
+    padding-right: 10px;
+}
+
+.portfoliocardbox{
+    width: inherit;
+    display: flex;
+    justify-content: space-between;
+}
+.portfoliocard{
+    width: 360px;
+    height: 435px;
+    border-radius: 20px 20px 0px 0px;
+    box-shadow: 8px 6px 3px rgba(141, 139, 139, 0.4);
+}
+.portimg img{
+    width: 100%;
+}
+.portfoliotext{
+    padding: 15px;
+}
+.portfoliotext h3{
+    color: #282938;
+    font-size: 22px;
+    font-family: Roboto;
+    font-weight: 700;
+    line-height: 30.80px;
+    padding-bottom: 5px;
+}
+ .portfoliotext p{
+    
+    color: #1C1E53;
+    font-size: 15.33px;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 20px !important ;
+    
+}
+.portviews{
+display: flex;
+justify-content: space-between;
+width: 130px;
+height: 38px;
+margin-left: 15px;
+border-bottom: 3px solid #5E3BEE;
+border-radius: 3px;
+
+
+}
+.portviews p{
+    color: black;
+    font-size: 13.67px;
+    font-family: Roboto;
+    font-weight: 600;
+    padding-top: 15px;
+    padding-left: 5px;
+}
+.portviews img{
+    height: 13px;
+    margin-top: 10px;
+}
+/* portfolio part start */
+/* customer part star */
+#customer_part{
+    padding-top: 60px;
+    padding-bottom:70px;
+    background-color: #F5FCFF;
+}
+.cumstomerheading{
+    padding-bottom: 70px;
+}
+.cumstomerheading p{
+    color: #282938;
+    font-size: 18.33px;
+    font-family: Roboto;
+    font-weight: 600;
+    line-height: 32px;
+}
+.cumstomerheading h3{
+    color: #282938;
+font-size: 32px;
+font-family: Roboto;
+font-weight: 700;
+line-height: 76.80px;
+}
+.customercardbox{
+    width: inherit;
+    display: flex;
+    justify-content: space-between;
+}
+.customer_card{
+    width: 380px;
+    height: 335px;
+    border-radius: 8px;
+    padding: 15px;
+    border: 1px solid #006B6A;
+}
+.customer_rating img{
+ height: 20px;
+ margin-top: 30px;
+ margin-left: 10px;
+}
+.customer_card p{
+    padding-top: 20px;
+    color: #1C1E53;
+font-size: 15.33px;
+font-family: Roboto;
+font-weight: 400;
+line-height: 32px;
+}
+.customerprofile{
+    display: flex;
+    padding-top: 30px;
+}
+.customerprofile_img img{
+    height: 70px;
+}
+.customerprofile_text{
+    margin-left: 15px;
+}
+.customerprofile_text h3{
+    color: #282938;
+    font-size: 15.33px;
+    font-family: Roboto;
+    font-weight: 600;
+    line-height: 32px;
+}
+.customerprofile_text span{
+    color: #1C1E53;
+font-size: 15.33px;
+font-family: Roboto;
+font-weight: 400;
+line-height: 10px;
+}
+/* customer part end */
+/* contactForm start */
+#contactform{
+    padding-top: 50px;
+    padding-top: 100px;
+}
+.formheading{
+    text-align: center;
+}
+.formheading h2{
+    color: #282938;
+    font-size: 18.33px;
+    font-family: Roboto;
+    font-weight: 600;
+    line-height: 32px;
+}
+.formheading h3{
+    color: #282938;
+font-size: 30px;
+font-family: Roboto;
+font-weight: 700;
+line-height: 76.80px;
+}
+.formheading p{
+    color: #1C1E53;
+font-size: 18px;
+font-family: Roboto;
+font-weight: 400;
+line-height: 36px;
+}
+.formcontainer{
+width: 650px;
+margin: 0px auto;
+padding-top: 30px;
+
+
+}
+.firstpart{
+    display: flex;
+    justify-content: space-between;
+    width: inherit;
+}
+.leftpart p{
+    color: #282938;
+font-size: 16.33px;
+font-family: Roboto;
+font-weight: 400;
+line-height: 22px;
+padding-bottom: 10px;
+padding-top: 10px;
+}
+.leftpart input{
+    border: 1px solid #5E3BEE;
+    width: 300px;
+    border-radius: 5px;
+    padding-bottom: 10px;
+}
+.rightpart p{
+    color: #282938;
+    font-size: 16.33px;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 22px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.rightpart input{
+    border: 1px solid #5E3BEE;
+    width: 300px;
+    border-radius: 5px;
+    padding-bottom: 10px;
+}
+.choosebox p{
+    color: #282938;
+    font-size: 16.33px;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 22px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.choosebox input{
+    border: 1px solid #5E3BEE;
+    width: 300px;
+    border-radius: 5px;
+    padding-bottom: 10px;
+    width: 650px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.messeagebox p{
+    color: #282938;
+    font-size: 16.33px;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 22px;
+    padding-bottom: 10px;
+    padding-top: 10px; 
+}
+.messeagebox input{
+    border: 1px solid #5E3BEE;
+    height: 200px;
+    border-radius: 5px;
+    width: 650px;
+    padding-left: 10px;
+}
+.checkbox1{
+    padding-top: 20px;
+    display: flex;
+}
+.checkbox1 input{
+    height: 20px;
+    margin-top: 10px;
+}
+.checkbox1 p{
+    padding-left: 20px;
+    color: #282938;
+    font-size: 16.33px;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 22px;
+    padding-top: 10px; 
+}
+.formbutton{
+   
+    background:#5E3BEE;
+    color: white;
+    width: 170px;
+    height: 69px;
+    border-radius: 5px;
+    border: none;
+    font-size: 21.33px;
+font-family: Roboto;
+font-weight: 400;
+line-height: 32px;
+}
+.button_submit{
+    margin: 100px auto 0px auto;
+    width:180px ;
+}
+
+/* contactForm end */
+/* footer start  */
+footer{
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+.footernav{
+    display: flex;
+    justify-content: space-between;
+    width: inherit;
+    padding-bottom: 70px;
+    
+}
+.footerlogo img{
+    width: 150px;
+}
+.footernav ul{
+    text-align: center;
+    
+}
+.footernav ul li{
+    display: inline-block;
+   
+}
+.footernav ul li a{
+    color: black;
+    font-size: 16.33px;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 32px;
+    padding-left: 25px;
+}
+.footericon{
+    width: 180px;
+    font-size: 18.33px;
+    display: flex;
+    justify-content: space-between;
+}
+.footerinfotext{
+    display: flex;
+    justify-content: space-between;
+    color: black;
+
+}
+.footerinfotext .footerinfo1{
+    color: black;
+font-size: 13.67px;
+font-family: Roboto;
+font-weight: 400;
+line-height: 28px;
+}
+.footerinfo2{
+ width: 370px;
+ display: flex;
+ justify-content: space-between;
+}
+.footerinfo2 h3{
+    color: black;
+    font-size: 13.67px;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 28px;
+}
+/* footer end  */
